@@ -1,0 +1,2 @@
+rootProject.name='XOQuiz4'
+include ':app'

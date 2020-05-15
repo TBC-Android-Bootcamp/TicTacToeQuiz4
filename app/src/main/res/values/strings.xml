@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XOQuiz4</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="_4x4">4x4</string>
+    <string name="back_to_3x3">Back to 3x3</string>
+    <string name="_5x5">5x5</string>
+</resources>

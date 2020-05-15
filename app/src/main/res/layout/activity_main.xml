@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:visibility="visible">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+
+            <Button
+                android:textColor="#fff"
+                android:id="@+id/btn9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:onClick="btnClick"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:background="#fff"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/restartGame"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_game"/>
+        <Button
+            android:id="@+id/goTo4x4"
+            android:background="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4x4"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:id="@+id/goTo5x5"
+            android:background="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5x5"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
